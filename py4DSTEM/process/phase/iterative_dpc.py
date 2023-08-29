@@ -57,6 +57,7 @@ class DPCReconstruction(PhaseReconstruction):
         name: str = "dpc_reconstruction",
     ):
         Custom.__init__(self, name=name)
+        
 
         if device == "cpu":
             self._xp = np
